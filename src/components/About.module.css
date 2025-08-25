@@ -1,0 +1,24 @@
+
+.about {
+    padding: 6rem 2rem;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: rgb(var(--text-primary-rgb));
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}

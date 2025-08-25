@@ -1,0 +1,37 @@
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 2rem;
+    background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heroContent {
+    background-color: rgba(var(--background-start-rgb), 0.7);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    max-width: var(--max-width);
+}
+
+.title {
+    font-size: 3.5rem;
+    color: rgb(var(--text-primary-rgb));
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: rgb(var(--accent-color-rgb));
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: rgb(var(--text-secondary-rgb));
+}

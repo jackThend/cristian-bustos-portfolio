@@ -1,0 +1,35 @@
+
+.contact {
+    padding: 6rem 2rem;
+    text-align: center;
+    background-color: rgb(var(--background-end-rgb));
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.emailLink {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(var(--accent-color-rgb));
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border: 2px solid rgb(var(--accent-color-rgb));
+    border-radius: var(--border-radius);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.emailLink:hover {
+    background-color: rgb(var(--accent-color-rgb));
+    color: white;
+}
